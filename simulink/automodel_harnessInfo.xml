@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HarnessInformation>
+  <Harness>
+    <P Name="Name">chart_Harness</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Kris</P>
+    <P Name="CreatedOn">Wed Jun 13 01:23:28 2018</P>
+    <P Name="ModifiedBy">Kris</P>
+    <P Name="LastSaved">Thu Jun 14 20:38:29 2018</P>
+    <P Name="Owner">75</P>
+    <P Name="OwnerType">SS_HARNESS</P>
+    <P Name="OwnerPath">Controller
+/Chart</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">chart_Harness.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">64d14535-ab55-4a44-b64e-db8bb91966c1</P>
+    <P Name="HarnessConnectionsMap">|0,1|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">2</P>
+    <P Name="SinkType">2</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">automodel</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">true</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">0</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">5|24|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||||chart_Harness</P>
+  </Harness>
+  <Harness>
+    <P Name="Name">Maintain_speed_normall</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Kris</P>
+    <P Name="CreatedOn">Thu Jun 14 21:29:12 2018</P>
+    <P Name="ModifiedBy">Kris</P>
+    <P Name="LastSaved">Thu Jun 14 21:51:29 2018</P>
+    <P Name="Owner">76</P>
+    <P Name="OwnerType">SS_HARNESS</P>
+    <P Name="OwnerPath">Controller
+/PI-regelaar
+</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">Maintain_speed_normall.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">3244b972-0ead-4846-aed5-d0f2919425a9</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">2</P>
+    <P Name="SinkType">2</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">automodel</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">true</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">0</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">6|28|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||||Maintain_speed_normall</P>
+  </Harness>
+  <Harness>
+    <P Name="Name">maintain_on_speed_harness_real</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Kris</P>
+    <P Name="CreatedOn">Wed Jun 13 01:27:14 2018</P>
+    <P Name="ModifiedBy">Kris</P>
+    <P Name="LastSaved">Thu Jun 14 19:48:49 2018</P>
+    <P Name="Owner">76</P>
+    <P Name="OwnerType">SS_HARNESS</P>
+    <P Name="OwnerPath">Controller
+/PI-regelaar
+</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">maintain_on_speed_harness_real.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">026da141-8d58-4bd1-a2ac-1a370b0c39a8</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">1</P>
+    <P Name="SinkType">1</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">automodel</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">0</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">6|20|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||||maintain_on_speed_harness_real</P>
+  </Harness>
+  <Harness>
+    <P Name="Name">on_slope_harness_real</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Kris</P>
+    <P Name="CreatedOn">Wed Jun 13 01:31:25 2018</P>
+    <P Name="ModifiedBy">Kris</P>
+    <P Name="LastSaved">Fri Jun 15 00:31:59 2018</P>
+    <P Name="Owner">76</P>
+    <P Name="OwnerType">SS_HARNESS</P>
+    <P Name="OwnerPath">Controller
+/PI-regelaar
+</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">on_slope_harness_real.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">1ebb8762-0882-4dcb-b65b-0cb5a942b3e3</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">1</P>
+    <P Name="SinkType">1</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">automodel</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">0</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">6|20|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||||on_slope_harness_real</P>
+  </Harness>
+  <Harness>
+    <P Name="Name">automodel_Harness1</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Kris</P>
+    <P Name="CreatedOn">Wed Feb 14 11:15:38 2018</P>
+    <P Name="ModifiedBy">Kris</P>
+    <P Name="LastSaved">Wed Feb 21 10:16:31 2018</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">automodel_Harness1.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">a8f9b24c-e928-4c02-892e-f3aa53b938e7</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">2</P>
+    <P Name="SinkType">2</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">automodel</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">true</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">2</P>
+    <P Name="IsImported">true</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">0|21|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||||automodel_Harness1</P>
+  </Harness>
+  <Harness>
+    <P Name="Name">automodel_Harness2</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">Kris</P>
+    <P Name="CreatedOn">Wed Feb 14 11:15:38 2018</P>
+    <P Name="ModifiedBy">Kris</P>
+    <P Name="LastSaved">Mon Jun 04 02:18:37 2018</P>
+    <P Name="Owner">bd</P>
+    <P Name="OwnerType">BD_HARNESS</P>
+    <P Name="OwnerPath">.</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">automodel_Harness2.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">4ffa215e-befe-440c-a3e8-884642565429</P>
+    <P Name="HarnessConnectionsMap">0,1|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">2</P>
+    <P Name="SinkType">2</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">automodel</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">true</P>
+    <P Name="SLDVCompatible">yes</P>
+    <P Name="SynchronizationMode">2</P>
+    <P Name="IsImported">true</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">0|21|0|0|0|0|0</P>
+    <P Name="OpenGraphs">||||automodel_Harness2</P>
+  </Harness>
+</HarnessInformation>

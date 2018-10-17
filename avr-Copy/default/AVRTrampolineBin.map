@@ -1,0 +1,1577 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              tpl_os_it_kernel.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+                              main/Subsystem0.o (__muldi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+                              main/Subsystem0.o (__lshrdi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+                              main/Subsystem0.o (__ashldi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+                              main/Subsystem0.o (__udivdi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o) (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o) (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_prologue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o) (__prologue_saves__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_epilogue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o) (__epilogue_restores__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o) (__clz_tab)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                              main.o (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+                              main.o (printf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+                              main.o (puts)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+funcX               0x2               main/ButtonDriver.o
+functionCANCCOn     0x2               main.o
+boutonISR6_int_context
+                    0x23              firstAVR/tpl_app_config.o
+periodicTask_int_context
+                    0x23              firstAVR/tpl_app_config.o
+adcISR1_int_context
+                    0x23              firstAVR/tpl_app_config.o
+startTask_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+secondTask_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+periodicTask_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+functionCANSpeed    0x2               main.o
+rtM_                0x2               main/Subsystem0.o
+idle_task_context   0x23              tpl_machine.o
+tpl_priority_0_fifo
+                    0x1               firstAVR/tpl_app_config.o
+boutonISR5_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+funcADC             0x2               main.o
+idle_stack          0x32              tpl_machine.o
+functionCANButton   0x2               main.o
+tpl_priority_2_fifo
+                    0x1               firstAVR/tpl_app_config.o
+functionCANForce    0x2               main.o
+secondTask_int_context
+                    0x23              firstAVR/tpl_app_config.o
+boutonISR7_int_context
+                    0x23              firstAVR/tpl_app_config.o
+stopCANTask_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+rtU                 0x8               main/Subsystem0.o
+stopCANTask_int_context
+                    0x23              firstAVR/tpl_app_config.o
+boutonISR4_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+boutonISR6_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+rtDW                0xe               main/Subsystem0.o
+boutonISR7_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+tpl_priority_5_fifo
+                    0x6               firstAVR/tpl_app_config.o
+rtPrevZCX           0x5               main/Subsystem0.o
+boutonISR5_int_context
+                    0x23              firstAVR/tpl_app_config.o
+functionCANSetSpeed
+                    0x2               main.o
+boutonISR1_stack_zone
+                    0x100             firstAVR/tpl_app_config.o
+rtY                 0x2               main/Subsystem0.o
+tpl_priority_1_fifo
+                    0x1               firstAVR/tpl_app_config.o
+tpl_priority_3_fifo
+                    0x1               firstAVR/tpl_app_config.o
+tpl_priority_4_fifo
+                    0x2               firstAVR/tpl_app_config.o
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+boutonISR1_int_context
+                    0x23              firstAVR/tpl_app_config.o
+startTask_int_context
+                    0x23              firstAVR/tpl_app_config.o
+adcISR1_stack_zone  0x100             firstAVR/tpl_app_config.o
+boutonISR4_int_context
+                    0x23              firstAVR/tpl_app_config.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+ .text          0x00000000        0x0 tpl_os_alarm_kernel.o
+ .data          0x00000000        0x0 tpl_os_alarm_kernel.o
+ .bss           0x00000000        0x0 tpl_os_alarm_kernel.o
+ .text.tpl_cancel_alarm_service
+                0x00000000        0x0 tpl_os_alarm_kernel.o
+ .text.tpl_get_alarm_service
+                0x00000000        0x0 tpl_os_alarm_kernel.o
+ .text.tpl_get_alarm_base_service
+                0x00000000        0x0 tpl_os_alarm_kernel.o
+ .text.tpl_set_abs_alarm_service
+                0x00000000        0x0 tpl_os_alarm_kernel.o
+ .text.tpl_set_rel_alarm_service
+                0x00000000        0x0 tpl_os_alarm_kernel.o
+ .rodata.INVALID_ALARM
+                0x00000000        0x0 tpl_os_alarm_kernel.o
+ .text          0x00000000        0x0 tpl_os_event_kernel.o
+ .data          0x00000000        0x0 tpl_os_event_kernel.o
+ .bss           0x00000000        0x0 tpl_os_event_kernel.o
+ .text.tpl_wait_event_service
+                0x00000000        0x0 tpl_os_event_kernel.o
+ .text.tpl_get_event_service
+                0x00000000        0x0 tpl_os_event_kernel.o
+ .text.tpl_clear_event_service
+                0x00000000        0x0 tpl_os_event_kernel.o
+ .text.tpl_set_event_service
+                0x00000000        0x0 tpl_os_event_kernel.o
+ .text          0x00000000        0x0 tpl_os_it_kernel.o
+ .data          0x00000000        0x0 tpl_os_it_kernel.o
+ .bss           0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_null_it
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_central_interrupt_handler_2
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_resume_os_interrupts_service
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_enable_all_interrupts_service
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_resume_all_interrupts_service
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_suspend_os_interrupts_service
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_disable_all_interrupts_service
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text.tpl_suspend_all_interrupts_service
+                0x00000000        0x0 tpl_os_it_kernel.o
+ .text          0x00000000        0x0 tpl_os_rez_kernel.o
+ .data          0x00000000        0x0 tpl_os_rez_kernel.o
+ .bss           0x00000000        0x0 tpl_os_rez_kernel.o
+ .text.tpl_release_resource_service
+                0x00000000        0x0 tpl_os_rez_kernel.o
+ .text.tpl_get_resource_service
+                0x00000000        0x0 tpl_os_rez_kernel.o
+ .rodata.RES_SCHEDULER
+                0x00000000        0x0 tpl_os_rez_kernel.o
+ .rodata.INVALID_RESOURCE
+                0x00000000        0x0 tpl_os_rez_kernel.o
+ .data.res_sched_rez_desc
+                0x00000000        0x0 tpl_os_rez_kernel.o
+ .text          0x00000000        0x0 tpl_os_task_kernel.o
+ .data          0x00000000        0x0 tpl_os_task_kernel.o
+ .bss           0x00000000        0x0 tpl_os_task_kernel.o
+ .text.tpl_get_task_state_service
+                0x00000000        0x0 tpl_os_task_kernel.o
+ .text.tpl_get_task_id_service
+                0x00000000        0x0 tpl_os_task_kernel.o
+ .text.tpl_schedule_service
+                0x00000000        0x0 tpl_os_task_kernel.o
+ .text.tpl_activate_task_service
+                0x00000000        0x0 tpl_os_task_kernel.o
+ .text          0x00000000        0x0 tpl_os_timeobj_kernel.o
+ .data          0x00000000        0x0 tpl_os_timeobj_kernel.o
+ .bss           0x00000000        0x0 tpl_os_timeobj_kernel.o
+ .text.tpl_remove_time_obj
+                0x00000000        0x0 tpl_os_timeobj_kernel.o
+ .text          0x00000000        0x0 tpl_os_kernel.o
+ .data          0x00000000        0x0 tpl_os_kernel.o
+ .bss           0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_current_os_state
+                0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_release_internal_resource
+                0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_set_event
+                0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_get_active_application_mode_service
+                0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_call_terminate_task_service
+                0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_shutdown_os_service
+                0x00000000        0x0 tpl_os_kernel.o
+ .text.tpl_schedule_from_waiting
+                0x00000000        0x0 tpl_os_kernel.o
+ .rodata.INVALID_PROC
+                0x00000000        0x0 tpl_os_kernel.o
+ .data.INTERNAL_RES_SCHEDULER
+                0x00000000        0x0 tpl_os_kernel.o
+ .text          0x00000000        0x0 tpl_os_action.o
+ .data          0x00000000        0x0 tpl_os_action.o
+ .bss           0x00000000        0x0 tpl_os_action.o
+ .text.tpl_action_callback
+                0x00000000        0x0 tpl_os_action.o
+ .text.tpl_action_setevent
+                0x00000000        0x0 tpl_os_action.o
+ .text          0x00000000        0x0 tpl_os_error.o
+ .data          0x00000000        0x0 tpl_os_error.o
+ .bss           0x00000000        0x0 tpl_os_error.o
+ .text          0x00000000        0x0 tpl_os.o
+ .data          0x00000000        0x0 tpl_os.o
+ .bss           0x00000000        0x0 tpl_os.o
+ .text.CallTerminateTask
+                0x00000000        0x0 tpl_os.o
+ .text.ShutdownOS
+                0x00000000        0x0 tpl_os.o
+ .text.tpl_start_os
+                0x00000000        0x0 tpl_os.o
+ .text.GetActiveApplicationMode
+                0x00000000        0x0 tpl_os.o
+ .text          0x00000000        0x0 tpl_os_alarm.o
+ .data          0x00000000        0x0 tpl_os_alarm.o
+ .bss           0x00000000        0x0 tpl_os_alarm.o
+ .text.CancelAlarm
+                0x00000000        0x0 tpl_os_alarm.o
+ .text.SetAbsAlarm
+                0x00000000        0x0 tpl_os_alarm.o
+ .text.SetRelAlarm
+                0x00000000        0x0 tpl_os_alarm.o
+ .text.GetAlarm
+                0x00000000        0x0 tpl_os_alarm.o
+ .text.GetAlarmBase
+                0x00000000        0x0 tpl_os_alarm.o
+ .text          0x00000000        0x0 tpl_os_event.o
+ .data          0x00000000        0x0 tpl_os_event.o
+ .bss           0x00000000        0x0 tpl_os_event.o
+ .text.WaitEvent
+                0x00000000        0x0 tpl_os_event.o
+ .text.GetEvent
+                0x00000000        0x0 tpl_os_event.o
+ .text.ClearEvent
+                0x00000000        0x0 tpl_os_event.o
+ .text.SetEvent
+                0x00000000        0x0 tpl_os_event.o
+ .text          0x00000000        0x0 tpl_os_it.o
+ .data          0x00000000        0x0 tpl_os_it.o
+ .bss           0x00000000        0x0 tpl_os_it.o
+ .text.SuspendOSInterrupts
+                0x00000000        0x0 tpl_os_it.o
+ .text.ResumeOSInterrupts
+                0x00000000        0x0 tpl_os_it.o
+ .text.SuspendAllInterrupts
+                0x00000000        0x0 tpl_os_it.o
+ .text.ResumeAllInterrupts
+                0x00000000        0x0 tpl_os_it.o
+ .text.DisableAllInterrupts
+                0x00000000        0x0 tpl_os_it.o
+ .text.EnableAllInterrupts
+                0x00000000        0x0 tpl_os_it.o
+ .text          0x00000000        0x0 tpl_os_rez.o
+ .data          0x00000000        0x0 tpl_os_rez.o
+ .bss           0x00000000        0x0 tpl_os_rez.o
+ .text.ReleaseResource
+                0x00000000        0x0 tpl_os_rez.o
+ .text.GetResource
+                0x00000000        0x0 tpl_os_rez.o
+ .text          0x00000000        0x0 tpl_os_task.o
+ .data          0x00000000        0x0 tpl_os_task.o
+ .bss           0x00000000        0x0 tpl_os_task.o
+ .text.GetTaskState
+                0x00000000        0x0 tpl_os_task.o
+ .text.GetTaskID
+                0x00000000        0x0 tpl_os_task.o
+ .text.Schedule
+                0x00000000        0x0 tpl_os_task.o
+ .text.ActivateTask
+                0x00000000        0x0 tpl_os_task.o
+ .data          0x00000000        0x0 avr_switch_context.o
+ .bss           0x00000000        0x0 avr_switch_context.o
+ .text          0x00000000        0x0 tpl_machine.o
+ .data          0x00000000        0x0 tpl_machine.o
+ .bss           0x00000000        0x0 tpl_machine.o
+ .text.tpl_shutdown
+                0x00000000        0x0 tpl_machine.o
+ .text.tpl_enable_interrupts
+                0x00000000        0x0 tpl_machine.o
+ .text.tpl_disable_interrupts
+                0x00000000        0x0 tpl_machine.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text.functionLedSet
+                0x00000000        0x0 main.o
+ .text          0x00000000        0x0 main/acdDriver.o
+ .data          0x00000000        0x0 main/acdDriver.o
+ .bss           0x00000000        0x0 main/acdDriver.o
+ .text          0x00000000        0x0 main/ButtonDriver.o
+ .data          0x00000000        0x0 main/ButtonDriver.o
+ .bss           0x00000000        0x0 main/ButtonDriver.o
+ .text.buttonsInit
+                0x00000000        0x0 main/ButtonDriver.o
+ .text          0x00000000        0x0 main/canDriver.o
+ .bss           0x00000000        0x0 main/canDriver.o
+ .text.canInitReceiveOne
+                0x00000000        0x0 main/canDriver.o
+ .text          0x00000000        0x0 main/LedDriver.o
+ .data          0x00000000        0x0 main/LedDriver.o
+ .bss           0x00000000        0x0 main/LedDriver.o
+ .text.ledsOn   0x00000000        0x0 main/LedDriver.o
+ .text.ledsOff  0x00000000        0x0 main/LedDriver.o
+ .text.ledsToggle
+                0x00000000        0x0 main/LedDriver.o
+ .text          0x00000000        0x0 main/PWMDriver.o
+ .data          0x00000000        0x0 main/PWMDriver.o
+ .bss           0x00000000        0x0 main/PWMDriver.o
+ .text.pwmSet   0x00000000        0x0 main/PWMDriver.o
+ .text          0x00000000        0x0 main/rs232.o
+ .data          0x00000000        0x0 main/rs232.o
+ .bss           0x00000000        0x0 main/rs232.o
+ .text.USART0_Transmit
+                0x00000000        0x0 main/rs232.o
+ .text.USART0_Transmit_String
+                0x00000000        0x0 main/rs232.o
+ .text.USART1_Transmit
+                0x00000000        0x0 main/rs232.o
+ .text.USART1_Transmit_String
+                0x00000000        0x0 main/rs232.o
+ .text.init_USART1
+                0x00000000        0x0 main/rs232.o
+ .text.uart_getchar
+                0x00000000        0x0 main/rs232.o
+ .text          0x00000000        0x0 main/Subsystem0.o
+ .data          0x00000000        0x0 main/Subsystem0.o
+ .bss           0x00000000        0x0 main/Subsystem0.o
+ .text.chartstep_c1_Subsystem0
+                0x00000000        0x0 main/Subsystem0.o
+ .text.Subsystem0_step
+                0x00000000        0x0 main/Subsystem0.o
+ .text.Subsystem0_initialize
+                0x00000000        0x0 main/Subsystem0.o
+ .rodata.rtM    0x00000000        0x0 main/Subsystem0.o
+ COMMON         0x00000000        0x0 main/Subsystem0.o
+ .text          0x00000000        0x0 firstAVR/tpl_app_config.o
+ .data          0x00000000        0x0 firstAVR/tpl_app_config.o
+ .bss           0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.periodicTask
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.startTask
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.periodicAl
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.tpl_resource_table
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.OSTICKSPERBASE
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.OSMAXALLOWEDVALUE
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.OSMINCYCLE
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .rodata.proc_name_table
+                0x00000000        0x0 firstAVR/tpl_app_config.o
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_epilogue.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .text          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+LOAD tpl_os_alarm_kernel.o
+LOAD tpl_os_event_kernel.o
+LOAD tpl_os_it_kernel.o
+LOAD tpl_os_rez_kernel.o
+LOAD tpl_os_task_kernel.o
+LOAD tpl_os_timeobj_kernel.o
+LOAD tpl_os_kernel.o
+LOAD tpl_os_action.o
+LOAD tpl_os_error.o
+LOAD tpl_os.o
+LOAD tpl_os_alarm.o
+LOAD tpl_os_event.o
+LOAD tpl_os_it.o
+LOAD tpl_os_rez.o
+LOAD tpl_os_task.o
+LOAD avr_switch_context.o
+LOAD tpl_machine.o
+LOAD main.o
+LOAD main/acdDriver.o
+LOAD main/ButtonDriver.o
+LOAD main/canDriver.o
+LOAD main/LedDriver.o
+LOAD main/PWMDriver.o
+LOAD main/rs232.o
+LOAD main/Subsystem0.o
+LOAD firstAVR/tpl_app_config.o
+START GROUP
+END GROUP
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1ad8
+ *(.vectors)
+ .vectors       0x00000000       0x94 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000094                . = ALIGN (0x2)
+                0x00000094                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000094        0x0 linker stubs
+ *(.trampolines*)
+                0x00000094                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000094                __ctors_start = .
+ *(.ctors)
+                0x00000094                __ctors_end = .
+                0x00000094                __dtors_start = .
+ *(.dtors)
+                0x00000094                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000094        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+                0x00000094                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000094        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000a0       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+                0x000000a0                __do_copy_data
+ .init4         0x000000ba       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x000000ba                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ca        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000d2        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtcan128.o
+                0x000000d2                __vector_22
+                0x000000d2                __vector_28
+                0x000000d2                __vector_1
+                0x000000d2                __vector_32
+                0x000000d2                __vector_34
+                0x000000d2                __vector_24
+                0x000000d2                __vector_12
+                0x000000d2                __bad_interrupt
+                0x000000d2                __vector_31
+                0x000000d2                __vector_35
+                0x000000d2                __vector_3
+                0x000000d2                __vector_23
+                0x000000d2                __vector_30
+                0x000000d2                __vector_11
+                0x000000d2                __vector_13
+                0x000000d2                __vector_17
+                0x000000d2                __vector_19
+                0x000000d2                __vector_27
+                0x000000d2                __vector_33
+                0x000000d2                __vector_4
+                0x000000d2                __vector_9
+                0x000000d2                __vector_21
+                0x000000d2                __vector_15
+                0x000000d2                __vector_36
+                0x000000d2                __vector_29
+                0x000000d2                __vector_26
+                0x000000d2                __vector_14
+                0x000000d2                __vector_16
+                0x000000d2                __vector_20
+ .text          0x000000d6       0xe0 avr_switch_context.o
+                0x000000d6                tpl_switch_context_from_it
+                0x000000d6                tpl_switch_context
+                0x000001b6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.tpl_raise_alarm
+                0x000001b6       0x1a tpl_os_alarm_kernel.o
+                0x000001b6                tpl_raise_alarm
+ .text.tpl_get_interrupt_lock_status
+                0x000001d0       0x40 tpl_os_it_kernel.o
+                0x000001d0                tpl_get_interrupt_lock_status
+ .text.tpl_reset_interrupt_lock_status
+                0x00000210       0x46 tpl_os_it_kernel.o
+                0x00000210                tpl_reset_interrupt_lock_status
+ .text.tpl_activate_isr
+                0x00000256       0x4e tpl_os_it_kernel.o
+ .text.tpl_central_interrupt_handler
+                0x000002a4       0xbc tpl_os_it_kernel.o
+                0x000002a4                tpl_central_interrupt_handler
+ .text.tpl_terminate_isr2_service
+                0x00000360       0x40 tpl_os_it_kernel.o
+                0x00000360                tpl_terminate_isr2_service
+ .text.tpl_release_all_resources
+                0x000003a0       0x4c tpl_os_rez_kernel.o
+                0x000003a0                tpl_release_all_resources
+ .text.tpl_chain_task_service
+                0x000003ec       0x5c tpl_os_task_kernel.o
+                0x000003ec                tpl_chain_task_service
+ .text.tpl_terminate_task_service
+                0x00000448       0x48 tpl_os_task_kernel.o
+                0x00000448                tpl_terminate_task_service
+ .text.tpl_enable_counters
+                0x00000490        0x8 tpl_os_timeobj_kernel.o
+                0x00000490                tpl_enable_counters
+ .text.tpl_insert_time_obj
+                0x00000498      0x128 tpl_os_timeobj_kernel.o
+                0x00000498                tpl_insert_time_obj
+ .text.tpl_counter_tick
+                0x000005c0      0x1c2 tpl_os_timeobj_kernel.o
+                0x000005c0                tpl_counter_tick
+ .text.tpl_get_proc
+                0x00000782       0x76 tpl_os_kernel.o
+ .text.tpl_put_preempted_proc
+                0x000007f8       0x7e tpl_os_kernel.o
+                0x000007f8                tpl_put_preempted_proc
+ .text.tpl_put_new_proc
+                0x00000876       0x86 tpl_os_kernel.o
+                0x00000876                tpl_put_new_proc
+ .text.tpl_get_internal_resource
+                0x000008fc       0x50 tpl_os_kernel.o
+                0x000008fc                tpl_get_internal_resource
+ .text.tpl_activate_task
+                0x0000094c       0x4e tpl_os_kernel.o
+                0x0000094c                tpl_activate_task
+ .text.tpl_call_terminate_isr2_service
+                0x0000099a       0x32 tpl_os_kernel.o
+                0x0000099a                tpl_call_terminate_isr2_service
+ .text.tpl_init_os
+                0x000009cc       0x4a tpl_os_kernel.o
+                0x000009cc                tpl_init_os
+ .text.tpl_init_proc
+                0x00000a16       0x34 tpl_os_kernel.o
+                0x00000a16                tpl_init_proc
+ .text.tpl_start_scheduling
+                0x00000a4a       0x60 tpl_os_kernel.o
+                0x00000a4a                tpl_start_scheduling
+ .text.tpl_start_os_service
+                0x00000aaa       0x46 tpl_os_kernel.o
+                0x00000aaa                tpl_start_os_service
+ .text.tpl_schedule_from_dying
+                0x00000af0       0xe0 tpl_os_kernel.o
+                0x00000af0                tpl_schedule_from_dying
+ .text.tpl_schedule_from_running
+                0x00000bd0       0xaa tpl_os_kernel.o
+                0x00000bd0                tpl_schedule_from_running
+ .text.tpl_action_activate_task
+                0x00000c7a        0xa tpl_os_action.o
+                0x00000c7a                tpl_action_activate_task
+ .text.CallTerminateISR2
+                0x00000c84        0x6 tpl_os.o
+                0x00000c84                CallTerminateISR2
+ .text.StartOS  0x00000c8a       0x12 tpl_os.o
+                0x00000c8a                StartOS
+ .text.ChainTask
+                0x00000c9c        0x8 tpl_os_task.o
+                0x00000c9c                ChainTask
+ .text.TerminateTask
+                0x00000ca4        0x8 tpl_os_task.o
+                0x00000ca4                TerminateTask
+ .text.tpl_sleep
+                0x00000cac        0x2 tpl_machine.o
+                0x00000cac                tpl_sleep
+ .text.tpl_init_context
+                0x00000cae       0x6c tpl_machine.o
+                0x00000cae                tpl_init_context
+ .text.tpl_get_task_lock
+                0x00000d1a        0x4 tpl_machine.o
+                0x00000d1a                tpl_get_task_lock
+ .text.tpl_release_task_lock
+                0x00000d1e        0x4 tpl_machine.o
+                0x00000d1e                tpl_release_task_lock
+ .text.tpl_init_machine
+                0x00000d22        0x4 tpl_machine.o
+                0x00000d22                tpl_init_machine
+ .text.FunctionCANButton
+                0x00000d26        0x2 main.o
+                0x00000d26                FunctionCANButton
+ .text.FunctionCANSpeed
+                0x00000d28        0x2 main.o
+                0x00000d28                FunctionCANSpeed
+ .text.FunctionCANCCOn
+                0x00000d2a       0x2c main.o
+                0x00000d2a                FunctionCANCCOn
+ .text.FunctionCANSetSpeed
+                0x00000d56       0x2c main.o
+                0x00000d56                FunctionCANSetSpeed
+ .text.FunctionCANForce
+                0x00000d82       0x22 main.o
+                0x00000d82                FunctionCANForce
+ .text.main     0x00000da4       0x92 main.o
+                0x00000da4                main
+ .text.ADCinterrupt
+                0x00000e36       0x48 main.o
+                0x00000e36                ADCinterrupt
+ .text.periodicTask_function
+                0x00000e7e       0x12 main.o
+                0x00000e7e                periodicTask_function
+ .text.stopCANTask_function
+                0x00000e90       0x16 main.o
+                0x00000e90                stopCANTask_function
+ .text.startTask_function
+                0x00000ea6        0xa main.o
+                0x00000ea6                startTask_function
+ .text.secondTask_function
+                0x00000eb0        0xa main.o
+                0x00000eb0                secondTask_function
+ .text.adcInit  0x00000eba       0x2e main/acdDriver.o
+                0x00000eba                adcInit
+ .text.ADCstartConversion
+                0x00000ee8        0xc main/acdDriver.o
+                0x00000ee8                ADCstartConversion
+ .text.adcISR1_function
+                0x00000ef4       0x2a main/acdDriver.o
+                0x00000ef4                adcISR1_function
+ .text.boutonISR7_function
+                0x00000f1e       0x12 main/ButtonDriver.o
+                0x00000f1e                boutonISR7_function
+ .text.boutonISR6_function
+                0x00000f30       0x12 main/ButtonDriver.o
+                0x00000f30                boutonISR6_function
+ .text.boutonISR5_function
+                0x00000f42       0x12 main/ButtonDriver.o
+                0x00000f42                boutonISR5_function
+ .text.boutonISR4_function
+                0x00000f54       0x12 main/ButtonDriver.o
+                0x00000f54                boutonISR4_function
+ .text.boutonISR1_function
+                0x00000f66       0x12 main/ButtonDriver.o
+                0x00000f66                boutonISR1_function
+ .text.canSetBaud
+                0x00000f78       0x14 main/canDriver.o
+                0x00000f78                canSetBaud
+ .text.canInitMob
+                0x00000f8c       0x40 main/canDriver.o
+                0x00000f8c                canInitMob
+ .text.canInitSendOne
+                0x00000fcc       0x44 main/canDriver.o
+                0x00000fcc                canInitSendOne
+ .text.canInitSend
+                0x00001010        0xe main/canDriver.o
+                0x00001010                canInitSend
+ .text.canInitRecieve
+                0x0000101e        0x2 main/canDriver.o
+                0x0000101e                canInitRecieve
+ .text.canSend  0x00001020       0x4a main/canDriver.o
+                0x00001020                canSend
+ .text.canStop  0x0000106a       0x1e main/canDriver.o
+                0x0000106a                canStop
+ .text.canStart
+                0x00001088       0x16 main/canDriver.o
+                0x00001088                canStart
+ .text.__vector_18
+                0x0000109e      0x108 main/canDriver.o
+                0x0000109e                __vector_18
+ .text.canInit  0x000011a6       0x96 main/canDriver.o
+                0x000011a6                canInit
+ .text.ledsInit
+                0x0000123c        0x6 main/LedDriver.o
+                0x0000123c                ledsInit
+ .text.ledsSet  0x00001242        0x4 main/LedDriver.o
+                0x00001242                ledsSet
+ .text.pwmInit  0x00001246        0xa main/PWMDriver.o
+                0x00001246                pwmInit
+ .text.init_USART0
+                0x00001250       0x18 main/rs232.o
+                0x00001250                init_USART0
+ .text.uart_putchar
+                0x00001268       0x22 main/rs232.o
+                0x00001268                uart_putchar
+ .text.__vector_8
+                0x0000128a       0x54 firstAVR/tpl_app_config.o
+                0x0000128a                __vector_8
+ .text.__vector_7
+                0x000012de       0x54 firstAVR/tpl_app_config.o
+                0x000012de                __vector_7
+ .text.__vector_6
+                0x00001332       0x54 firstAVR/tpl_app_config.o
+                0x00001332                __vector_6
+ .text.__vector_5
+                0x00001386       0x54 firstAVR/tpl_app_config.o
+                0x00001386                __vector_5
+ .text.__vector_2
+                0x000013da       0x54 firstAVR/tpl_app_config.o
+                0x000013da                __vector_2
+ .text.__vector_25
+                0x0000142e       0x54 firstAVR/tpl_app_config.o
+                0x0000142e                __vector_25
+ .text.__vector_10
+                0x00001482       0x78 firstAVR/tpl_app_config.o
+                0x00001482                __vector_10
+ .text.avr-libc
+                0x000014fa       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+                0x000014fa                printf
+ .text.avr-libc
+                0x0000151e       0x6a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(puts.o)
+                0x0000151e                puts
+ .text.avr-libc
+                0x00001588      0x40c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x00001588                vfprintf
+ .text.avr-libc
+                0x00001994       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00001994                strnlen_P
+ .text.avr-libc
+                0x000019aa       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x000019aa                strnlen
+ .text.avr-libc
+                0x000019c0       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x000019c0                fputc
+ .text.avr-libc
+                0x00001a18       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00001a18                __ultoa_invert
+                0x00001ad4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001ad4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x00001ad4                exit
+                0x00001ad4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001ad4        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001ad8                _etext = .
+
+.data           0x00800100      0x218 load address 0x00001ad8
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x79 main.o
+ .data          0x00800179        0xd main/canDriver.o
+ *(.data*)
+ .data.tpl_kern
+                0x00800186        0xb tpl_os_kernel.o
+                0x00800186                tpl_kern
+ .data.tpl_h_prio
+                0x00800191        0x1 tpl_os_kernel.o
+                0x00800191                tpl_h_prio
+ .data.mystdout
+                0x00800192        0xe main.o
+ .data.mystdout
+                0x008001a0        0xe main/canDriver.o
+ .data.SystemCounter_counter_desc
+                0x008001ae       0x18 firstAVR/tpl_app_config.o
+                0x008001ae                SystemCounter_counter_desc
+ .data.periodicTask_task_desc
+                0x008001c6        0x5 firstAVR/tpl_app_config.o
+                0x008001c6                periodicTask_task_desc
+ .data.secondTask_task_desc
+                0x008001cb        0x5 firstAVR/tpl_app_config.o
+                0x008001cb                secondTask_task_desc
+ .data.startTask_task_desc
+                0x008001d0        0x5 firstAVR/tpl_app_config.o
+                0x008001d0                startTask_task_desc
+ .data.stopCANTask_task_desc
+                0x008001d5        0x5 firstAVR/tpl_app_config.o
+                0x008001d5                stopCANTask_task_desc
+ .data.adcISR1_isr_helper
+                0x008001da        0x5 firstAVR/tpl_app_config.o
+                0x008001da                adcISR1_isr_helper
+ .data.adcISR1_isr_desc
+                0x008001df        0x5 firstAVR/tpl_app_config.o
+                0x008001df                adcISR1_isr_desc
+ .data.boutonISR1_isr_helper
+                0x008001e4        0x5 firstAVR/tpl_app_config.o
+                0x008001e4                boutonISR1_isr_helper
+ .data.boutonISR1_isr_desc
+                0x008001e9        0x5 firstAVR/tpl_app_config.o
+                0x008001e9                boutonISR1_isr_desc
+ .data.boutonISR4_isr_helper
+                0x008001ee        0x5 firstAVR/tpl_app_config.o
+                0x008001ee                boutonISR4_isr_helper
+ .data.boutonISR4_isr_desc
+                0x008001f3        0x5 firstAVR/tpl_app_config.o
+                0x008001f3                boutonISR4_isr_desc
+ .data.boutonISR5_isr_helper
+                0x008001f8        0x5 firstAVR/tpl_app_config.o
+                0x008001f8                boutonISR5_isr_helper
+ .data.boutonISR5_isr_desc
+                0x008001fd        0x5 firstAVR/tpl_app_config.o
+                0x008001fd                boutonISR5_isr_desc
+ .data.boutonISR6_isr_helper
+                0x00800202        0x5 firstAVR/tpl_app_config.o
+                0x00800202                boutonISR6_isr_helper
+ .data.boutonISR6_isr_desc
+                0x00800207        0x5 firstAVR/tpl_app_config.o
+                0x00800207                boutonISR6_isr_desc
+ .data.boutonISR7_isr_helper
+                0x0080020c        0x5 firstAVR/tpl_app_config.o
+                0x0080020c                boutonISR7_isr_helper
+ .data.boutonISR7_isr_desc
+                0x00800211        0x5 firstAVR/tpl_app_config.o
+                0x00800211                boutonISR7_isr_desc
+ .data.periodicAl_alarm_desc
+                0x00800216        0xf firstAVR/tpl_app_config.o
+                0x00800216                periodicAl_alarm_desc
+ *(.rodata)
+ *(.rodata*)
+ .rodata.INVALID_TASK
+                0x00800225        0x1 tpl_os_kernel.o
+                0x00800225                INVALID_TASK
+ .rodata.idle_task_static
+                0x00800226        0xe tpl_os_kernel.o
+                0x00800226                idle_task_static
+ .rodata.secondTask
+                0x00800234        0x1 firstAVR/tpl_app_config.o
+                0x00800234                secondTask
+ .rodata.stopCANTask
+                0x00800235        0x1 firstAVR/tpl_app_config.o
+                0x00800235                stopCANTask
+ .rodata.periodicTask_task_stat_desc
+                0x00800236        0xe firstAVR/tpl_app_config.o
+                0x00800236                periodicTask_task_stat_desc
+ .rodata.secondTask_task_stat_desc
+                0x00800244        0xe firstAVR/tpl_app_config.o
+                0x00800244                secondTask_task_stat_desc
+ .rodata.startTask_task_stat_desc
+                0x00800252        0xe firstAVR/tpl_app_config.o
+                0x00800252                startTask_task_stat_desc
+ .rodata.stopCANTask_task_stat_desc
+                0x00800260        0xe firstAVR/tpl_app_config.o
+                0x00800260                stopCANTask_task_stat_desc
+ .rodata.adcISR1_isr_stat_desc
+                0x0080026e        0xe firstAVR/tpl_app_config.o
+                0x0080026e                adcISR1_isr_stat_desc
+ .rodata.boutonISR1_isr_stat_desc
+                0x0080027c        0xe firstAVR/tpl_app_config.o
+                0x0080027c                boutonISR1_isr_stat_desc
+ .rodata.boutonISR4_isr_stat_desc
+                0x0080028a        0xe firstAVR/tpl_app_config.o
+                0x0080028a                boutonISR4_isr_stat_desc
+ .rodata.boutonISR5_isr_stat_desc
+                0x00800298        0xe firstAVR/tpl_app_config.o
+                0x00800298                boutonISR5_isr_stat_desc
+ .rodata.boutonISR6_isr_stat_desc
+                0x008002a6        0xe firstAVR/tpl_app_config.o
+                0x008002a6                boutonISR6_isr_stat_desc
+ .rodata.boutonISR7_isr_stat_desc
+                0x008002b4        0xe firstAVR/tpl_app_config.o
+                0x008002b4                boutonISR7_isr_stat_desc
+ .rodata.tpl_stat_proc_table
+                0x008002c2       0x16 firstAVR/tpl_app_config.o
+                0x008002c2                tpl_stat_proc_table
+ .rodata.tpl_dyn_proc_table
+                0x008002d8       0x16 firstAVR/tpl_app_config.o
+                0x008002d8                tpl_dyn_proc_table
+ .rodata.tpl_isr_stat_table
+                0x008002ee        0xc firstAVR/tpl_app_config.o
+                0x008002ee                tpl_isr_stat_table
+ .rodata.periodicAl_action
+                0x008002fa        0x3 firstAVR/tpl_app_config.o
+                0x008002fa                periodicAl_action
+ .rodata.periodicAl_static
+                0x008002fd        0x6 firstAVR/tpl_app_config.o
+                0x008002fd                periodicAl_static
+ .rodata.tpl_alarm_table
+                0x00800303        0x2 firstAVR/tpl_app_config.o
+                0x00800303                tpl_alarm_table
+ .rodata.tpl_ready_list
+                0x00800305       0x12 firstAVR/tpl_app_config.o
+                0x00800305                tpl_ready_list
+ *(.gnu.linkonce.d*)
+                0x00800318                . = ALIGN (0x2)
+ *fill*         0x00800317        0x1 00
+                0x00800318                _edata = .
+                0x00800318                PROVIDE (__data_end, .)
+
+.bss            0x00800318      0xbfb
+                0x00800318                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.tpl_locking_depth
+                0x00800318        0x4 tpl_os_it_kernel.o
+                0x00800318                tpl_locking_depth
+ .bss.tpl_user_task_lock
+                0x0080031c        0x1 tpl_os_it_kernel.o
+                0x0080031c                tpl_user_task_lock
+ .bss.tpl_cpt_user_task_lock_All
+                0x0080031d        0x4 tpl_os_it_kernel.o
+                0x0080031d                tpl_cpt_user_task_lock_All
+ .bss.tpl_cpt_user_task_lock_OS
+                0x00800321        0x4 tpl_os_it_kernel.o
+                0x00800321                tpl_cpt_user_task_lock_OS
+ .bss.tpl_cpt_os_task_lock
+                0x00800325        0x4 tpl_os_it_kernel.o
+                0x00800325                tpl_cpt_os_task_lock
+ .bss.tpl_it_nesting.1541
+                0x00800329        0x4 tpl_os_it_kernel.o
+ .bss.tpl_counters_enabled
+                0x0080032d        0x1 tpl_os_timeobj_kernel.o
+ .bss.idle_task
+                0x0080032e        0x5 tpl_os_kernel.o
+                0x0080032e                idle_task
+ .bss.application_mode
+                0x00800333        0x1 tpl_os_kernel.o
+ .bss.tpl_fifo_rw
+                0x00800334        0xc firstAVR/tpl_app_config.o
+                0x00800334                tpl_fifo_rw
+ *(COMMON)
+ COMMON         0x00800340       0x55 tpl_machine.o
+                0x00800340                idle_task_context
+                0x00800363                idle_stack
+ COMMON         0x00800395        0xc main.o
+                0x00800395                functionCANCCOn
+                0x00800397                functionCANSpeed
+                0x00800399                funcADC
+                0x0080039b                functionCANButton
+                0x0080039d                functionCANForce
+                0x0080039f                functionCANSetSpeed
+ COMMON         0x008003a1        0x2 main/ButtonDriver.o
+                0x008003a1                funcX
+ COMMON         0x008003a3      0xb6a firstAVR/tpl_app_config.o
+                0x008003a3                boutonISR6_int_context
+                0x008003c6                periodicTask_int_context
+                0x008003e9                adcISR1_int_context
+                0x0080040c                startTask_stack_zone
+                0x0080050c                secondTask_stack_zone
+                0x0080060c                periodicTask_stack_zone
+                0x0080070c                tpl_priority_0_fifo
+                0x0080070d                boutonISR5_stack_zone
+                0x0080080d                tpl_priority_2_fifo
+                0x0080080e                secondTask_int_context
+                0x00800831                boutonISR7_int_context
+                0x00800854                stopCANTask_stack_zone
+                0x00800954                stopCANTask_int_context
+                0x00800977                boutonISR4_stack_zone
+                0x00800a77                boutonISR6_stack_zone
+                0x00800b77                boutonISR7_stack_zone
+                0x00800c77                tpl_priority_5_fifo
+                0x00800c7d                boutonISR5_int_context
+                0x00800ca0                boutonISR1_stack_zone
+                0x00800da0                tpl_priority_1_fifo
+                0x00800da1                tpl_priority_3_fifo
+                0x00800da2                tpl_priority_4_fifo
+                0x00800da4                boutonISR1_int_context
+                0x00800dc7                startTask_int_context
+                0x00800dea                adcISR1_stack_zone
+                0x00800eea                boutonISR4_int_context
+ COMMON         0x00800f0d        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x00800f0d                __iob
+                0x00800f13                PROVIDE (__bss_end, .)
+                0x00001ad8                __data_load_start = LOADADDR (.data)
+                0x00001cf0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800f13        0x0
+                0x00800f13                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800f13                PROVIDE (__noinit_end, .)
+                0x00800f13                _end = .
+                0x00800f13                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x7a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 tpl_os_alarm_kernel.o
+ .debug_aranges
+                0x00000048       0x38 tpl_os_event_kernel.o
+ .debug_aranges
+                0x00000080       0x80 tpl_os_it_kernel.o
+ .debug_aranges
+                0x00000100       0x30 tpl_os_rez_kernel.o
+ .debug_aranges
+                0x00000130       0x48 tpl_os_task_kernel.o
+ .debug_aranges
+                0x00000178       0x38 tpl_os_timeobj_kernel.o
+ .debug_aranges
+                0x000001b0       0xb0 tpl_os_kernel.o
+ .debug_aranges
+                0x00000260       0x30 tpl_os_action.o
+ .debug_aranges
+                0x00000290       0x48 tpl_os.o
+ .debug_aranges
+                0x000002d8       0x40 tpl_os_alarm.o
+ .debug_aranges
+                0x00000318       0x38 tpl_os_event.o
+ .debug_aranges
+                0x00000350       0x48 tpl_os_it.o
+ .debug_aranges
+                0x00000398       0x28 tpl_os_rez.o
+ .debug_aranges
+                0x000003c0       0x48 tpl_os_task.o
+ .debug_aranges
+                0x00000408       0x20 avr_switch_context.o
+ .debug_aranges
+                0x00000428       0x58 tpl_machine.o
+ .debug_aranges
+                0x00000480       0x78 main.o
+ .debug_aranges
+                0x000004f8       0x30 main/acdDriver.o
+ .debug_aranges
+                0x00000528       0x48 main/ButtonDriver.o
+ .debug_aranges
+                0x00000570       0x70 main/canDriver.o
+ .debug_aranges
+                0x000005e0       0x40 main/LedDriver.o
+ .debug_aranges
+                0x00000620       0x28 main/PWMDriver.o
+ .debug_aranges
+                0x00000648       0x58 main/rs232.o
+ .debug_aranges
+                0x000006a0       0x30 main/Subsystem0.o
+ .debug_aranges
+                0x000006d0       0x50 firstAVR/tpl_app_config.o
+ .debug_aranges
+                0x00000720       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x00000740       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000760       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000780       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+
+.debug_pubnames
+                0x00000000     0x18d7
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xca tpl_os_alarm_kernel.o
+ .debug_pubnames
+                0x000000ca       0x7d tpl_os_event_kernel.o
+ .debug_pubnames
+                0x00000147      0x235 tpl_os_it_kernel.o
+ .debug_pubnames
+                0x0000037c       0xac tpl_os_rez_kernel.o
+ .debug_pubnames
+                0x00000428       0xbe tpl_os_task_kernel.o
+ .debug_pubnames
+                0x000004e6       0x6f tpl_os_timeobj_kernel.o
+ .debug_pubnames
+                0x00000555      0x27b tpl_os_kernel.o
+ .debug_pubnames
+                0x000007d0       0x5f tpl_os_action.o
+ .debug_pubnames
+                0x0000082f       0x87 tpl_os.o
+ .debug_pubnames
+                0x000008b6       0x60 tpl_os_alarm.o
+ .debug_pubnames
+                0x00000916       0x49 tpl_os_event.o
+ .debug_pubnames
+                0x0000095f       0xa3 tpl_os_it.o
+ .debug_pubnames
+                0x00000a02       0x36 tpl_os_rez.o
+ .debug_pubnames
+                0x00000a38       0x6f tpl_os_task.o
+ .debug_pubnames
+                0x00000aa7       0xe5 tpl_machine.o
+ .debug_pubnames
+                0x00000b8c      0x185 main.o
+ .debug_pubnames
+                0x00000d11       0x56 main/acdDriver.o
+ .debug_pubnames
+                0x00000d67       0xa4 main/ButtonDriver.o
+ .debug_pubnames
+                0x00000e0b      0x129 main/canDriver.o
+ .debug_pubnames
+                0x00000f34       0x51 main/LedDriver.o
+ .debug_pubnames
+                0x00000f85       0x29 main/PWMDriver.o
+ .debug_pubnames
+                0x00000fae       0xb2 main/rs232.o
+ .debug_pubnames
+                0x00001060       0x78 main/Subsystem0.o
+ .debug_pubnames
+                0x000010d8      0x760 firstAVR/tpl_app_config.o
+ .debug_pubnames
+                0x00001838       0x1f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_pubnames
+                0x00001857       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_pubnames
+                0x00001877       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_pubnames
+                0x00001897       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .debug_pubnames
+                0x000018b7       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x65d1
+ *(.debug_info)
+ .debug_info    0x00000000      0x597 tpl_os_alarm_kernel.o
+ .debug_info    0x00000597      0x1b9 tpl_os_event_kernel.o
+ .debug_info    0x00000750      0x6ad tpl_os_it_kernel.o
+ .debug_info    0x00000dfd      0x551 tpl_os_rez_kernel.o
+ .debug_info    0x0000134e      0x528 tpl_os_task_kernel.o
+ .debug_info    0x00001876      0x411 tpl_os_timeobj_kernel.o
+ .debug_info    0x00001c87      0xb98 tpl_os_kernel.o
+ .debug_info    0x0000281f      0x23c tpl_os_action.o
+ .debug_info    0x00002a5b       0x53 tpl_os_error.o
+ .debug_info    0x00002aae      0x17b tpl_os.o
+ .debug_info    0x00002c29      0x255 tpl_os_alarm.o
+ .debug_info    0x00002e7e      0x1bf tpl_os_event.o
+ .debug_info    0x0000303d       0xd6 tpl_os_it.o
+ .debug_info    0x00003113       0xe6 tpl_os_rez.o
+ .debug_info    0x000031f9      0x1c6 tpl_os_task.o
+ .debug_info    0x000033bf       0x9a avr_switch_context.o
+ .debug_info    0x00003459      0x3e4 tpl_machine.o
+ .debug_info    0x0000383d      0x413 main.o
+ .debug_info    0x00003c50       0xf2 main/acdDriver.o
+ .debug_info    0x00003d42      0x15a main/ButtonDriver.o
+ .debug_info    0x00003e9c      0x41e main/canDriver.o
+ .debug_info    0x000042ba      0x124 main/LedDriver.o
+ .debug_info    0x000043de       0xb4 main/PWMDriver.o
+ .debug_info    0x00004492      0x2bc main/rs232.o
+ .debug_info    0x0000474e      0x370 main/Subsystem0.o
+ .debug_info    0x00004abe      0xe48 firstAVR/tpl_app_config.o
+ .debug_info    0x00005906      0x206 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_info    0x00005b0c      0x17f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_info    0x00005c8b      0x17f c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_info    0x00005e0a      0x71e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .debug_info    0x00006528       0xa9 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1fd0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x15f tpl_os_alarm_kernel.o
+ .debug_abbrev  0x0000015f       0xad tpl_os_event_kernel.o
+ .debug_abbrev  0x0000020c      0x1db tpl_os_it_kernel.o
+ .debug_abbrev  0x000003e7      0x15a tpl_os_rez_kernel.o
+ .debug_abbrev  0x00000541      0x14b tpl_os_task_kernel.o
+ .debug_abbrev  0x0000068c      0x18f tpl_os_timeobj_kernel.o
+ .debug_abbrev  0x0000081b      0x26d tpl_os_kernel.o
+ .debug_abbrev  0x00000a88       0xeb tpl_os_action.o
+ .debug_abbrev  0x00000b73       0x28 tpl_os_error.o
+ .debug_abbrev  0x00000b9b       0xf6 tpl_os.o
+ .debug_abbrev  0x00000c91       0xbc tpl_os_alarm.o
+ .debug_abbrev  0x00000d4d       0xab tpl_os_event.o
+ .debug_abbrev  0x00000df8       0x4a tpl_os_it.o
+ .debug_abbrev  0x00000e42       0x8a tpl_os_rez.o
+ .debug_abbrev  0x00000ecc       0xb5 tpl_os_task.o
+ .debug_abbrev  0x00000f81       0x14 avr_switch_context.o
+ .debug_abbrev  0x00000f95      0x13a tpl_machine.o
+ .debug_abbrev  0x000010cf      0x1b3 main.o
+ .debug_abbrev  0x00001282       0xa1 main/acdDriver.o
+ .debug_abbrev  0x00001323       0xc6 main/ButtonDriver.o
+ .debug_abbrev  0x000013e9      0x1ee main/canDriver.o
+ .debug_abbrev  0x000015d7       0x94 main/LedDriver.o
+ .debug_abbrev  0x0000166b       0x70 main/PWMDriver.o
+ .debug_abbrev  0x000016db      0x182 main/rs232.o
+ .debug_abbrev  0x0000185d      0x140 main/Subsystem0.o
+ .debug_abbrev  0x0000199d      0x17c firstAVR/tpl_app_config.o
+ .debug_abbrev  0x00001b19       0xf0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_abbrev  0x00001c09       0xee c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x00001cf7       0xee c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x00001de5      0x181 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00001f66       0x6a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+
+.debug_line     0x00000000     0x4002
+ *(.debug_line)
+ .debug_line    0x00000000      0x352 tpl_os_alarm_kernel.o
+ .debug_line    0x00000352      0x198 tpl_os_event_kernel.o
+ .debug_line    0x000004ea      0x3f5 tpl_os_it_kernel.o
+ .debug_line    0x000008df      0x237 tpl_os_rez_kernel.o
+ .debug_line    0x00000b16      0x2f7 tpl_os_task_kernel.o
+ .debug_line    0x00000e0d      0x36e tpl_os_timeobj_kernel.o
+ .debug_line    0x0000117b      0x7d1 tpl_os_kernel.o
+ .debug_line    0x0000194c      0x155 tpl_os_action.o
+ .debug_line    0x00001aa1       0x3e tpl_os_error.o
+ .debug_line    0x00001adf      0x191 tpl_os.o
+ .debug_line    0x00001c70      0x1b0 tpl_os_alarm.o
+ .debug_line    0x00001e20      0x175 tpl_os_event.o
+ .debug_line    0x00001f95      0x125 tpl_os_it.o
+ .debug_line    0x000020ba      0x12d tpl_os_rez.o
+ .debug_line    0x000021e7      0x1a6 tpl_os_task.o
+ .debug_line    0x0000238d       0xc6 avr_switch_context.o
+ .debug_line    0x00002453      0x25a tpl_machine.o
+ .debug_line    0x000026ad      0x3b4 main.o
+ .debug_line    0x00002a61      0x101 main/acdDriver.o
+ .debug_line    0x00002b62      0x1c5 main/ButtonDriver.o
+ .debug_line    0x00002d27      0x4a6 main/canDriver.o
+ .debug_line    0x000031cd       0xff main/LedDriver.o
+ .debug_line    0x000032cc       0xa1 main/PWMDriver.o
+ .debug_line    0x0000336d      0x22d main/rs232.o
+ .debug_line    0x0000359a      0x2eb main/Subsystem0.o
+ .debug_line    0x00003885      0x2cc firstAVR/tpl_app_config.o
+ .debug_line    0x00003b51       0xaf c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_line    0x00003c00       0xd7 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_line    0x00003cd7       0xd7 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_line    0x00003dae      0x1d8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+ .debug_line    0x00003f86       0x7c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0xb80
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x70 tpl_os_alarm_kernel.o
+ .debug_frame   0x00000070       0x50 tpl_os_event_kernel.o
+ .debug_frame   0x000000c0       0xe0 tpl_os_it_kernel.o
+ .debug_frame   0x000001a0       0x40 tpl_os_rez_kernel.o
+ .debug_frame   0x000001e0       0x70 tpl_os_task_kernel.o
+ .debug_frame   0x00000250       0x50 tpl_os_timeobj_kernel.o
+ .debug_frame   0x000002a0      0x140 tpl_os_kernel.o
+ .debug_frame   0x000003e0       0x40 tpl_os_action.o
+ .debug_frame   0x00000420       0x70 tpl_os.o
+ .debug_frame   0x00000490       0x60 tpl_os_alarm.o
+ .debug_frame   0x000004f0       0x50 tpl_os_event.o
+ .debug_frame   0x00000540       0x70 tpl_os_it.o
+ .debug_frame   0x000005b0       0x30 tpl_os_rez.o
+ .debug_frame   0x000005e0       0x70 tpl_os_task.o
+ .debug_frame   0x00000650       0x90 tpl_machine.o
+ .debug_frame   0x000006e0       0xd0 main.o
+ .debug_frame   0x000007b0       0x40 main/acdDriver.o
+ .debug_frame   0x000007f0       0x70 main/ButtonDriver.o
+ .debug_frame   0x00000860       0xc0 main/canDriver.o
+ .debug_frame   0x00000920       0x60 main/LedDriver.o
+ .debug_frame   0x00000980       0x30 main/PWMDriver.o
+ .debug_frame   0x000009b0       0x90 main/rs232.o
+ .debug_frame   0x00000a40       0x40 main/Subsystem0.o
+ .debug_frame   0x00000a80       0x80 firstAVR/tpl_app_config.o
+ .debug_frame   0x00000b00       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_frame   0x00000b20       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_frame   0x00000b40       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_frame   0x00000b60       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+
+.debug_str      0x00000000     0x1f46
+ *(.debug_str)
+ .debug_str     0x00000000      0x325 tpl_os_alarm_kernel.o
+                                0x391 (size before relaxing)
+ .debug_str     0x00000325       0xa4 tpl_os_event_kernel.o
+                                0x16b (size before relaxing)
+ .debug_str     0x000003c9      0x43e tpl_os_it_kernel.o
+                                0x588 (size before relaxing)
+ .debug_str     0x00000807       0xe7 tpl_os_rez_kernel.o
+                                0x3f5 (size before relaxing)
+ .debug_str     0x000008ee       0xc0 tpl_os_task_kernel.o
+                                0x3cd (size before relaxing)
+ .debug_str     0x000009ae       0xf8 tpl_os_timeobj_kernel.o
+                                0x2ca (size before relaxing)
+ .debug_str     0x00000aa6      0x2fa tpl_os_kernel.o
+                                0x782 (size before relaxing)
+ .debug_str     0x00000da0       0xc0 tpl_os_action.o
+                                0x1ee (size before relaxing)
+ .debug_str     0x00000e60       0x1b tpl_os_error.o
+                                 0xc2 (size before relaxing)
+ .debug_str     0x00000e7b       0x7e tpl_os.o
+                                0x15b (size before relaxing)
+ .debug_str     0x00000ef9       0x85 tpl_os_alarm.o
+                                0x1c6 (size before relaxing)
+ .debug_str     0x00000f7e       0x6a tpl_os_event.o
+                                0x163 (size before relaxing)
+ .debug_str     0x00000fe8       0x91 tpl_os_it.o
+                                0x138 (size before relaxing)
+ .debug_str     0x00001079       0x42 tpl_os_rez.o
+                                0x116 (size before relaxing)
+ .debug_str     0x000010bb       0x6e tpl_os_task.o
+                                0x177 (size before relaxing)
+ .debug_str     0x00001129       0xeb tpl_machine.o
+                                0x367 (size before relaxing)
+ .debug_str     0x00001214      0x1ad main.o
+                                0x2be (size before relaxing)
+ .debug_str     0x000013c1       0x40 main/acdDriver.o
+                                0x126 (size before relaxing)
+ .debug_str     0x00001401       0x8d main/ButtonDriver.o
+                                0x193 (size before relaxing)
+ .debug_str     0x0000148e       0xb6 main/canDriver.o
+                                0x275 (size before relaxing)
+ .debug_str     0x00001544       0x47 main/LedDriver.o
+                                0x125 (size before relaxing)
+ .debug_str     0x0000158b       0x2d main/PWMDriver.o
+                                0x10b (size before relaxing)
+ .debug_str     0x000015b8       0x9e main/rs232.o
+                                0x18a (size before relaxing)
+ .debug_str     0x00001656      0x1ee main/Subsystem0.o
+                                0x2c9 (size before relaxing)
+ .debug_str     0x00001844      0x5cd firstAVR/tpl_app_config.o
+                                0xbd8 (size before relaxing)
+ .debug_str     0x00001e11       0xb4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+                                0x140 (size before relaxing)
+ .debug_str     0x00001ec5       0x23 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+                                0x132 (size before relaxing)
+ .debug_str     0x00001ee8        0xa c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+                                0x132 (size before relaxing)
+ .debug_str     0x00001ef2       0x54 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x00000000       0xf5 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clz.o)
+
+.debug_loc      0x00000000     0x2611
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x422 tpl_os_alarm_kernel.o
+ .debug_loc     0x00000422       0xef tpl_os_event_kernel.o
+ .debug_loc     0x00000511       0xb7 tpl_os_it_kernel.o
+ .debug_loc     0x000005c8       0xfe tpl_os_rez_kernel.o
+ .debug_loc     0x000006c6      0x195 tpl_os_task_kernel.o
+ .debug_loc     0x0000085b      0x2f0 tpl_os_timeobj_kernel.o
+ .debug_loc     0x00000b4b      0x25d tpl_os_kernel.o
+ .debug_loc     0x00000da8       0x48 tpl_os_action.o
+ .debug_loc     0x00000df0       0x44 tpl_os.o
+ .debug_loc     0x00000e34      0x107 tpl_os_alarm.o
+ .debug_loc     0x00000f3b       0x77 tpl_os_event.o
+ .debug_loc     0x00000fb2       0x26 tpl_os_rez.o
+ .debug_loc     0x00000fd8       0x69 tpl_os_task.o
+ .debug_loc     0x00001041       0x66 tpl_machine.o
+ .debug_loc     0x000010a7       0xaa main.o
+ .debug_loc     0x00001151       0x18 main/ButtonDriver.o
+ .debug_loc     0x00001169      0x1e7 main/canDriver.o
+ .debug_loc     0x00001350       0x13 main/LedDriver.o
+ .debug_loc     0x00001363       0xb2 main/rs232.o
+ .debug_loc     0x00001415       0xcc main/Subsystem0.o
+ .debug_loc     0x000014e1       0xcc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_muldi3.o)
+ .debug_loc     0x000015ad       0xf8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_lshrdi3.o)
+ .debug_loc     0x000016a5       0xf8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_ashldi3.o)
+ .debug_loc     0x0000179d      0xe74 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(AVRTrampolineBin.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x658
+ .debug_ranges  0x00000000       0x40 tpl_os_alarm_kernel.o
+ .debug_ranges  0x00000040       0x30 tpl_os_event_kernel.o
+ .debug_ranges  0x00000070       0x78 tpl_os_it_kernel.o
+ .debug_ranges  0x000000e8       0x28 tpl_os_rez_kernel.o
+ .debug_ranges  0x00000110       0x40 tpl_os_task_kernel.o
+ .debug_ranges  0x00000150       0x30 tpl_os_timeobj_kernel.o
+ .debug_ranges  0x00000180       0xa8 tpl_os_kernel.o
+ .debug_ranges  0x00000228       0x28 tpl_os_action.o
+ .debug_ranges  0x00000250       0x40 tpl_os.o
+ .debug_ranges  0x00000290       0x38 tpl_os_alarm.o
+ .debug_ranges  0x000002c8       0x30 tpl_os_event.o
+ .debug_ranges  0x000002f8       0x40 tpl_os_it.o
+ .debug_ranges  0x00000338       0x20 tpl_os_rez.o
+ .debug_ranges  0x00000358       0x40 tpl_os_task.o
+ .debug_ranges  0x00000398       0x50 tpl_machine.o
+ .debug_ranges  0x000003e8       0x70 main.o
+ .debug_ranges  0x00000458       0x28 main/acdDriver.o
+ .debug_ranges  0x00000480       0x40 main/ButtonDriver.o
+ .debug_ranges  0x000004c0       0x68 main/canDriver.o
+ .debug_ranges  0x00000528       0x38 main/LedDriver.o
+ .debug_ranges  0x00000560       0x20 main/PWMDriver.o
+ .debug_ranges  0x00000580       0x50 main/rs232.o
+ .debug_ranges  0x000005d0       0x28 main/Subsystem0.o
+ .debug_ranges  0x000005f8       0x48 firstAVR/tpl_app_config.o
+ .debug_ranges  0x00000640       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivdi3.o)

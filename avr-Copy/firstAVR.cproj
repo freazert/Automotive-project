@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
+    <ProjectGuid>edb5ffb7-c9af-421b-a99c-952d27bda2d4</ProjectGuid>
+    <Name>firstAVR</Name>
+    <avrdevice>at90can128</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <AvrProjectType>Importer</AvrProjectType>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>AVRTrampolineBin</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <ToolchainFlavour>WinAVR</ToolchainFlavour>
+    <avrtool>com.atmel.avrdbg.tool.ispmk2</avrtool>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>true</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <ResetRule>0</ResetRule>
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <EraseKey />
+    <AsfFrameworkConfig>
+      <framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.18.1" />
+        </dependencies>
+      </framework-data>
+    </AsfFrameworkConfig>
+    <avrtoolserialnumber>000200044813</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x1E9781</avrdeviceexpectedsignature>
+    <avrtoolinterface>ISP</avrtoolinterface>
+    <avrtoolinterfaceclock>125000</avrtoolinterfaceclock>
+    <com_atmel_avrdbg_tool_ispmk2>
+      <ToolOptions>
+        <InterfaceProperties>
+          <IspClock>125000</IspClock>
+        </InterfaceProperties>
+        <InterfaceName>ISP</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.ispmk2</ToolType>
+      <ToolNumber>000200044813</ToolNumber>
+      <ToolName>AVRISP mkII</ToolName>
+    </com_atmel_avrdbg_tool_ispmk2>
+    <com_atmel_avrdbg_tool_avrdragon>
+      <ToolOptions>
+        <InterfaceProperties>
+          <IspClock>0</IspClock>
+        </InterfaceProperties>
+        <InterfaceName>ISP</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.avrdragon</ToolType>
+      <ToolNumber>00A200049578</ToolNumber>
+      <ToolName>AVR Dragon</ToolName>
+    </com_atmel_avrdbg_tool_avrdragon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'default' ">
+    <OutputPath>bin\default\</OutputPath>
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.Device>-mmcu=at90can128 -B "%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\gcc\dev\at90can128"</avrgcc.common.Device>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.common.outputfiles.usersignatures>False</avrgcc.common.outputfiles.usersignatures>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>true</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>true</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.directories.IncludePaths>
+          <ListValues>
+            <Value>..\.</Value>
+            <Value>..\../..\os</Value>
+            <Value>..\../..\machines\avr</Value>
+            <Value>..\../..\com</Value>
+            <Value>..\../..\debug</Value>
+            <Value>..\firstAVR</Value>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\include</Value>
+          </ListValues>
+        </avrgcc.compiler.directories.IncludePaths>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>true</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>true</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>true</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.compiler.miscellaneous.OtherFlags>-gdwarf-2 -std=gnu99</avrgcc.compiler.miscellaneous.OtherFlags>
+        <avrgcc.assembler.general.AssemblerFlags>-Wall -gdwarf-2 -Os -std=gnu99 -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums</avrgcc.assembler.general.AssemblerFlags>
+        <avrgcc.assembler.general.IncludePaths>
+          <ListValues>
+            <Value>..\.</Value>
+            <Value>..\../..\os</Value>
+            <Value>..\../..\machines\avr</Value>
+            <Value>..\../..\com</Value>
+            <Value>..\../..\debug</Value>
+            <Value>..\firstAVR</Value>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.2.150\include</Value>
+          </ListValues>
+        </avrgcc.assembler.general.IncludePaths>
+      </AvrGcc>
+    </ToolchainSettings>
+    <BuildTarget>all</BuildTarget>
+    <CleanTarget>clean</CleanTarget>
+  </PropertyGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+  <ItemGroup>
+    <Compile Include="..\..\os\tpl_os_alarm_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_alarm_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_event_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_event_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_it_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_it_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_rez_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_rez_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_task_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_task_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_timeobj_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_timeobj_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_kernel.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_kernel.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_action.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_action.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_error.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_error.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_alarm.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_alarm.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_event.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_event.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_it.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_it.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_rez.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_rez.c</Link>
+    </Compile>
+    <Compile Include="..\..\os\tpl_os_task.c">
+      <SubType>compile</SubType>
+      <Link>tpl_os_task.c</Link>
+    </Compile>
+    <Compile Include="..\..\machines\avr\avr_switch_context.s">
+      <SubType>compile</SubType>
+      <Link>avr_switch_context.s</Link>
+    </Compile>
+    <Compile Include="..\..\machines\avr\tpl_machine.c">
+      <SubType>compile</SubType>
+      <Link>tpl_machine.c</Link>
+    </Compile>
+    <Compile Include="headers\acdDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\ButtonDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\canDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\defineHeader.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\LedDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\main.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\PWMDriver.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\rs232.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\rtwtypes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\Subsystem0.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\types.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\var_pub.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="headers\zero_crossing_types.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\acdDriver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\ButtonDriver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\canDriver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\LedDriver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\PWMDriver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\rs232.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="main\Subsystem0.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Folder Include="firstAVR" />
+    <Compile Include="firstAVR\tpl_app_config.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Folder Include="headers" />
+    <Folder Include="main" />
+  </ItemGroup>
+</Project>
